@@ -1,0 +1,19 @@
+body{
+	background-color:rgba(0,0,0,0.9);
+
+}
+#image{
+  height: 400px;
+  width: inherit;
+  align: center;
+  border: 5px double rgba(255,255,255,0.5);
+  border-radius: 2px;  
+  margin: auto;
+  display: block;
+}
+
+.center{
+	text-align: center;
+	color: white;
+}
+
