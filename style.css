@@ -1,8 +1,7 @@
-//@font-face{
-//	font-family: "cureofpain";
-//	src: url("fonts/cureofpain.ttf");
-//}
-
+@font-face{
+	font-family: "Amatic SC";
+	src: url("fonts/Amatic SC/AmaticSC-Regular.ttf");
+}
 
 body{
 	background-color:rgba(0,0,0,0.9);
