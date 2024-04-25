@@ -1,84 +1,55 @@
 :root{
-	--black: #000000;
-	--blue: #74f0ed;
-	--red: #ea445a;
-}
-
-@font-face{
-	font-family: "Amatic SC";
-	src: url("fonts/AmaticSC-Regular.ttf");
+  --black: #000000;
+  --blue: #92DCE5;
+  --white: #EEE5E9;
+  --gray: #7C7C7C;
+  --red: #D64933;
 }
 
 body{
-	background: #000000;
-	margin: 10px;
-	color: white;
-	text-align: center;
+   
 }
+.pf{
+}
+
 #image{
-  height: 500px;
-  width: inherit;
-  border-radius: 2px;  
-  margin: auto;
-  margin-top: 10px;
-  display: block;
-}
-
-.center{
-	text-align: center;
-	
-	font-size: 30px;
-	line-height: 0;
-	margin-top: 0px;
-	font-family: "Amatic SC", cursive;
-}
-
-hr{
-	margin: 20px;
-}
-
-p{
-	margin:0%;
-}
-
-li {
-	margin:0;
-	list-style:none;
-	float:left;
-}
-
-li a:last-child{
-	color: white;
-	padding: 0px 3px;
-	text-align: center;
-	text-decoration: none;
-	display: inline-block;
-	margin: 1px 4px;
-	cursor: pointer;
+  margin: 0;  
+  padding: 5px;
+  border: 0.5px solid black;
+  order: 0; 
 }
 
 nav{
-	display:flex;
-	justify-content:center;
-	align-items: center;
+  display: flex;
+}
+
+li {
+  list-style: none;
+  display: inline;
+  float: left;
+}
+
+li a{
+  margin-right: 10px;
+  color: var(--blue);
 }
 
 li a:hover{
-	color: var(--blue);
+  color: var(--black);
 }
 
-ul{
-	margin:0%;
+.content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-#text{
-	font-weight: 200;
-}
-h3{
-	margin-bottom: 0%;
-}
-#me{
-	margin-top: 3px;
-}
-a{
-	color: var(--blue);
+
+.pg{
+  text-align: center;
+  background-color: ;
+  margin-left: 35%;
+  margin-right: 35%;  
+  display:flex;
+  flex-direction: column;
+  align-items: center;
 }
